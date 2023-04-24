@@ -1,0 +1,1040 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curso FullStack Class • Avance Dev</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <!--NAVBAR-->
+    <nav id="navbar" class="navbar fixed-top navbar-scrolled navbar-expand-lg">
+      <div class="container-fluid">
+        <a class="logo navbar-brand" href="#sobre">
+          <img src="./imagens/logo-curso.png" />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color: #3db9b9;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#about">Sobre</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimonials">Depoimentos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#instrutor">Instrutor</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#modulos">Módulos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#price">Preço</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#faq">Dúvida</a>
+            </li>
+          </ul>
+            <button type="button" class="btn btn-info">
+              <a class="promotion-btn"
+                >Inscreva-se agora <span>36% off</span></a
+              >
+            </button>
+        </div>
+      </div>
+    </nav>
+
+    <section class="banner align-items-center" id="sobre">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 flex-column justify-content-center">
+            <h1>
+              Torne-se um Programador Profissional desejado pelas maiores
+              empresas de programação do mercado
+            </h1>
+            <h2>
+              Aprenda a programar com JavaScript e outras ferramentas avançadas
+            </h2>
+            <div class="text-center text-lg-start">
+              <button id="btnSaberMais" type="button" class="btn btn-info">
+                <a class="btnLink d-flex align-items-center justify-content-center">
+                  <span>Saiba Mais</span>
+                  <i class="bi bi-arrow-down"></i>
+                </a>
+              </button>
+            </div>
+          </div>
+          <div class="col-lg-6 banner-img">
+            <img src="./imagens/hero.png" alt="..." class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <img class="waves section-bg d-none d-lg-block" src="./imagens/waves.svg" />
+
+    <main id="main">
+      <section id="about" class="about section-bg">
+        <div class="count-down container-fluid p-5 text-white text-center">
+          <h1>A promoção acaba em</h1>
+          <div class="timer">
+            <div class="count-down-box timer-days">00d</div>
+            <div class="count-down-box timer-hours">00h</div>
+            <div class="count-down-box timer-minutes">00m</div>
+            <div class="count-down-box timer-seconds">00s</div>
+          </div>
+        </div>
+        <div class="container container-fluid p-2 text-white text-center">
+          <div class="titles">
+            <h2>Conheça por dentro</h2>
+            <p>Saiba o que o curso oferece</p>
+          </div>
+        </div>
+        <div class="iframe">
+          <div class="ratio ratio-16x9">
+            <iframe
+              width="560"
+              height="315"
+              src="https://www.youtube.com/embed/rtch2TDoq7Q"
+              title="Conheça o Curso Fullstack Class JavaScript por dentro!!!"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+              allowfullscreen
+            >
+            </iframe>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION VALUES-->
+
+      <section id="values" class="values">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4">
+              <div class="box">
+                <i class="bi bi-infinity"></i>
+                <h3>Acesso Vitalício</h3>
+                <p>
+                  Tenha acesso ao curso para sempre. Quando novas atualizações
+                  chegarem, receba todo o conteúdo exclusivo sem custos extras.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box">
+                <i class="bi bi-patch-check"></i>
+                <h3>Certificado</h3>
+                <p>
+                  Ao final do curso é entregue um certificado que comprova tudo
+                  aquilo que foi aprendido.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 mt-4 mt-lg-0">
+              <div class="box">
+                <i class="bi bi-shield-check"></i>
+                <h3>Garantia de 7 dias</h3>
+                <p>
+                  Com apenas um clique pode-se fazer a solicitação de reembolso
+                  dentro do prazo de 7 dias.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="course" class="course section-bg">
+        <div class="container">
+          <div class="titles">
+            <h2>Sobre o Curso</h2>
+            <p>Como funciona o curso?</p>
+          </div>
+
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <p>
+                O curso vai do básico ao avançado. Sendo assim, você pode
+                escolher entre duas trilhas: uma que ensina a base necessária
+                sobre programação e outra aonde você aprende a programar com
+                estruturas complexas.
+              </p>
+              <p class="mb-4">
+                Sempre que uma nova tecnologia for ensinada, você será levado a
+                criar projetos simples para que consiga absorver tudo o que é
+                necessário. Só depois irá para um projeto complexo.
+              </p>
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Domine o Frontend com ReactJS: aprenda a fazer componentes
+                  reutilizáveis para economizar tempo e esforço. Trabalhe com
+                  uma estrutura robusta que permite criar interfaces interativas
+                  e responsivas.
+                </p>
+              </div>
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Domine o Backend com Node.JS: aprenda a criar uma API de alta
+                  performance que consegue lidar com um grande número de
+                  solicitações. Trabalhe num projeto prático que conta com uma
+                  integração ao banco de dados e um sistema de autenticação.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img src="./imagens/course.svg" class="img img-fluid" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="testimonials" class="testimonials">
+        <div class="container">
+          <div class="titles">
+            <h2>Avaliação do Curso</h2>
+            <p>Depoimentos dos Alunos</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-4 d-flex justify-content-center mb-4 mb-lg-0">
+              <img
+                src="./imagens/Bruno Rodrigues.png"
+                class="depoi img-fluid"
+              />
+            </div>
+            <div class="col-lg-4 d-flex justify-content-center mb-4 mb-lg-=">
+              <img
+                src="./imagens/André Bezerra.png  "
+                class="depoi img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--AVATAR SECTION-->
+
+      <section id="avatar" class="avatar section-bg">
+        <div class="container">
+          <div class="titles">
+            <p>Para quem é o curso?</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img
+                src="./imagens/avatar.svg"
+                class="img-avatar img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6 mt-2 mt-lg-0">
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Profissionais que já são programadores, mas que querem se
+                  especializar e melhorar os seus salários, adquirindo domínio
+                  sobre as melhores linguagens e ferramentas do mercado de
+                  trabalho.
+                </p>
+              </div>
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Iniciantes que querem ir além do conteúdo básico gratuito
+                  existente na Internet. O curso ensina toda a base necessária
+                  para construir APIs e Frontends bem estruturados.
+                </p>
+              </div>
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Para quem quer mudar de profissão e conquistar a liberdade
+                  financeira trabalhando com o desenvolvimento de sistemas,
+                  mesmo sem saber nada sobre lógica de programação.
+                </p>
+              </div>
+              <div class="box">
+                <i class="bi bi-check-circle"></i>
+                <p>
+                  Para quem quer construir sistemas completos com Banco de
+                  Dados, Autenticação, Gráficos e Design Atraente!
+                </p>
+              </div>
+              <button type="button" class="btn btn-info">
+                <a>inscreva-se agora</a>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION TECNOLOGIAS-->
+
+      <section id="technologies" class="technologies">
+        <div class="container">
+          <div class="titles">
+            <h2>Tecnologias</h2>
+            <p>Linguagens e Ferramentas do Curso</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6 d-flex justify-content-center">
+              <img
+                src="./imagens/technologies.svg"
+                class="img-tecnologia img-fluid"
+                alt=""
+              />
+            </div>
+            <div class="col-lg-6 mt-2 mt-lg-0">
+              <p>
+                Programe com as melhores linguagens e ferramentas do mercado.
+                Você vai aprender no curso toda a base necessária para
+                programar. Depois de dominar o Backend e o Frontend, você será
+                capaz de criar soluções com as tecnologias mais avançadas.
+              </p>
+              <div class="row">
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      src="./imagens/tecnologias/html5.svg"
+                      class="img-fluid"
+                    />
+                    <p>HTML5</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/css3.svg"
+                    />
+                    <p>CSS3</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/javascript.svg"
+                    />
+                    <p>JavaScript</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/reactjs.svg"
+                    />
+                    <p>ReactJS</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/redux.svg"
+                    />
+                    <p>Redux</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/nodejs.svg"
+                    />
+                    <p>Node.JS</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/express.svg"
+                    />
+                    <p>Express.js</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/mongodb.svg"
+                    />
+                    <p>MongoDB</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/json.svg"
+                    />
+                    <p>JSON</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/chartjs.svg"
+                    />
+                    <p>Chart.js</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/vscode.svg"
+                    />
+                    <p>VSCode</p>
+                  </div>
+                </div>
+                <div class="col-6 col-lg-3 mt-4">
+                  <div class="box">
+                    <img
+                      class="img-fluid"
+                      src="./imagens/tecnologias/insomnia.svg"
+                    />
+                    <p>Insomnia</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION INSTRUTOR-->
+
+      <section id="instrutor" class="instrutor">
+        <div class="container">
+          <div class="titles">
+            <h2>Instrutor</h2>
+            <p>Quem é o Instrutor?</p>
+          </div>
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5">
+              <p>
+                Alan Cruz é criador da Avance Dev, programador formado em
+                Sistemas de Informação e residente de Criciúma, Santa Catarina.
+              </p>
+              <p>
+                É apaixonado por programação e atua na área de desenvolvimento
+                há mais de dez anos. Sua metodologia de ensino é prática e
+                direta.
+              </p>
+              <p>
+                A sua bagagem profissional lhe deu uma vasta experiência. E foi
+                sua paixão por ensinar que o fez criar o Avance Dev.
+              </p>
+              <p>
+                O seu objetivo é fazer com que programadores evoluam e se tornem
+                profissionais prontos para entrarem no mercado de trabalho.
+              </p>
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center">
+              <img
+                src="./imagens/about-me.png"
+                class="instrutor-img img-fluid"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--MUDULOS SECTION-->
+
+      <section id="modulos" class="modulos">
+        <div class="container">
+          <div class="titles">
+            <h2>Módulos</h2>
+            <p>Conheça os Módulos do Curso</p>
+          </div>
+          <div class="row gy-4">
+            <div class="col-lg-4 clo-mb-6">
+              <div class="modulo-box">
+                <h3>01 Instalando Dependências</h3>
+                <p>
+                  Neste módulo você irá instalar as ferramentas necessárias para
+                  programar, como o Visual Studio Code, que acelera o processo
+                  de desenvolvimento.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-mb-6">
+              <div class="modulo-box">
+                <h3>02 HTML (Guia Completo)</h3>
+                <p>
+                  Conheça nesse módulo o HTML, que é a estrutura básica de
+                  qualquer site. Aprenda sobre todas as Tags necessárias para a
+                  construção de páginas.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>03 CSS (Introdução)</h3>
+                <p>
+                  O CSS é responsável pela estilização de páginas. Aprenda todo
+                  o princípio básico para começar a estilizar e também como
+                  fazer Layouts responsivos (para qualquer tamanho de tela).
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>04 CSS (Flexbox)</h3>
+                <p>
+                  O Flexbox, que é uma técnica de estruturação de Layouts,
+                  facilita muito na hora de estilizar. Aprenda nesse módulo a
+                  mexer no CSS com mais eficiência.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>05 Página Completa (Login Page)</h3>
+                <p>
+                  Depois de ver sobre HTML e CSS, é necessário praticar. Nesse
+                  módulo você vai aprender a criar do zero uma página de Login
+                  completa.
+                </p>
+              </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>06 JavaScript (Guia Completo)</h3>
+                <p>
+                  O JavaScript permite implementar comportamentos complexos em
+                  páginas. Aprenda sobre variáveis, tipos de dados, laços de
+                  repetição e muito mais.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>07 Projeto com HTML, CSS e JS</h3>
+                <p>
+                  Depois de aprender sobre as três principais tecnologias usadas
+                  na Web, é hora de fazer um projeto simples para fixar e
+                  entender melhor tudo o que foi aprendido até aqui.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>08 Iniciando com React</h3>
+                <p>
+                  Esse será o seu primeiro contato com o React. O React é uma
+                  biblioteca JavaScript que permite criar página dinâmicas de
+                  maneira eficiente. Ele é um facilitador para quem programar
+                  para a Web.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>09 Conhecendo o Redux</h3>
+                <p>
+                  O Redux é uma biblioteca JavaScript que se integra com React.
+                  Ele permite criar estruturas complexas e organizadas, além de
+                  gerenciar o estado de um sistema Web.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>10 Projeto com React + Redux</h3>
+                <p>
+                  É hora de praticar com um projeto mais abrangente. Depois de
+                  entender bem sobre React e Redux, aprenda aqui a fazer um
+                  projeto com maior complexidade.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>11 React Hooks</h3>
+                <p>
+                  Os Hooks (Ganchos) são recursos que o React fornece para
+                  gerenciar variáveis e ciclos de vida de componentes. Com ele é
+                  possível criar componentes com menos código.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>13 To Do List - Backend (Node.JS + MongoDB)</h3>
+                <p>
+                  Nesse módulo você terá o seu primeiro contato com Node.JS e
+                  MongoDB. Aprenda aqui a criar uma API completa que se integra
+                  com banco de dados.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>14 To Do List - Frontend (React + Redux)</h3>
+                <p>
+                  É hora de pôr a mão na massa e trabalhar com um Sistema Web
+                  completo. Aprenda a trabalhar com uma estrutura robusta, com
+                  dados que são alimentados por uma API.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>15 To Do List > Disponibilizando Online</h3>
+                <p>
+                  Aprenda a disponibilizar Online, gratuitamente, o sistema que
+                  foi criado nos módulos anteriores.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <div class="modulo-box">
+                <h3>16 Sites Recomentados</h3>
+                <p>
+                  Nesse módulo você vai conhecer as documentações oficiais das
+                  tecnologias usadas no curso. Saiba como acessar cada
+                  documentação e como tirar o melhor proveito delas.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="modulos">
+        <div class="container">
+          <div class="titles">
+            <h2>Projeto To Do List</h2>
+            <p>Sobre o Projeto Principal</p>
+          </div>
+          <div class="row align-items-center">
+            <div class="col-lg-6">
+              <img src="./imagens/pages.png" class="img-tecnologia img-fluid" />
+            </div>
+            <div class="col-lg-6 mt-5 mt-lg-0">
+              <p>
+                Os módulos 13, 14 e 15 apresentam um projeto completo com
+                Backend e Frontend.
+              </p>
+              <p>
+                A maioria das empresas de sistemas utilizam tanto Backend quanto
+                Frontend. Essa arquitetura é robusta, segura e permite criar uma
+                interface de usuário interativa e responsiva. Além disso, essa
+                estrutura possibilita que as equipes de desenvolvimento
+                trabalhem com mais eficiência e colaboração.
+              </p>
+
+              <p>
+                A API que você vai construir no curso disponibilizará os dados
+                em um formato muito conhecido, que é o JSON. O Frontend pegará
+                esses dados para alimentar todas as páginas.
+              </p>
+
+              <p>
+                Portanto, você terá em mãos um projeto prático e completo,
+                desenvolvido com as melhores tecnologias do mercado.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--PRICE SECTION-->
+
+      <section id="price" class="price">
+        <div class="container">
+          <div class="titles">
+            <h2>Investimento</h2>
+            <p>Quanto precisa investir?</p>
+          </div>
+          <div class="row justify-content-center align-items-center gx-5">
+            <div class="col-lg-5">
+              <div class="text">
+                <p>
+                  Uma faculdade com foco em programação custa em média R$ 800,00
+                  por mês. Para a maioria das pessoas esse é um preço muito
+                  alto.
+                </p>
+                <p>
+                  Já o curso FullStack Class JavaScript é bem mais acessível e
+                  conta com opções flexíveis de pagamento para ajudá-lo a
+                  alcançar os seus objetivos!
+                </p>
+                <p>
+                  Temos orgulho de eferecer um curso de alta qualidade que lhe
+                  fará ser desejado pelas maiores empresas de programação do
+                  mercado.
+                </p>
+                <p>
+                  Não perca esta oportunidade de investir em sua carreira e
+                  obter um conhecimento sólido sobre as melhores tecnologias
+                  usadas no mundo da programação.
+                </p>
+                <p>
+                  E se não gostar do curso, você pode pedir o reembolso integral
+                  do valor pago. O prazo para solicitação é de 7 dias.
+                </p>
+              </div>
+            </div>
+            <div class="col-lg-5 mt-2 mt-lg-0">
+              <div class="box">
+                <div class="title">
+                  <h4>Você vai investir</h4>
+                  <h2 class="promotion">
+                    Promoção por <br />
+                    Tempo Limitado
+                  </h2>
+                </div>
+                <div class="value">
+                  <h4 class="promotion">
+                    de
+                    <span class="text-decoration-line-through">R$ 297,00</span>
+                    por
+                  </h4>
+                  <h2>
+                    12x de R$ 16,67 <span class="promotion">44% OFF</span>
+                  </h2>
+                  <h6>ou R$ 167, 00 à vista.</h6>
+                </div>
+                <button type="button" class="btn btn-info">
+                  Inscreva-se agora
+                </button>
+                <img src="./imagens/flags.png" class="flags" />
+                <div class="count-down promotion-count">
+                  <h4>A promoção acaba em</h4>
+                  <div class="timer">
+                    <div class="count-down-box timer-days">00d</div>
+                    <div class="count-down-box timer-hours">00h</div>
+                    <div class="count-down-box timer-minutes">00m</div>
+                    <div class="count-down-box timer-seconds">00s</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--SECTION FAQ-->
+      <section id="faq" class="faq section-bg">
+        <div class="container">
+          <div class="titles">
+            <h2>Tire suas dúvidas</h2>
+            <p>Perguntas Frequentes</p>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-8">
+              <div class="accordion accordion-flush" id="faqlist1">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-1"
+                    >
+                      Como funciona o prazo de garantia?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-1"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Após adquirir o curso é possível pedir o reembolso
+                      integral do valor pago pela sua compra. O prazo para
+                      solicitação do reembolso é de 7 dias.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-2"
+                    >
+                      O que é e como funciona o Cerrtificado Digital?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-2"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      O Certificado Digital é um documento que comprova que o
+                      aluno fez o curso FullStack Class e pode ser emitido ao
+                      final do curso. O certificado pode ser compartilhado em
+                      redes sociais como o LinkedIn e inserido em informações
+                      curriculares.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-3"
+                    >
+                      Como o aluno irá acessar o curso após a compra?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-3"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        Você receberá o acesso ao curso FullStack Class por
+                        email. O conteúdo pode ser acessado através do
+                        computador, celular, tablet ou outro dispositivo.
+                      </p>
+                      <p>
+                        Você também pode acessar o produto comprado nesta
+                        página:
+                      </p>
+                      <ul>
+                        <li>
+                          1- Faça login clicando em
+                          <a
+                            class="linkFaq"
+                            href="#http://hotmart.com"
+                            target="_blank"
+                            >"Entrar"</a
+                          >
+                        </li>
+                        <li>
+                          2- Acesse o menu lateral, clique em "Minha conta"
+                        </li>
+                        <li>
+                          3- Clique em
+                          <a
+                            class="linkFaq"
+                            href="http://https://purchase.hotmart.com/purchase"
+                            target="_blank"
+                          >
+                            "Minhas compras"
+                          </a>
+                        </li>
+                      </ul>
+                      <p>Em "Minhas compras" está disponível o curso!</p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-4"
+                    >
+                      Por quanto tempo o aluno terá acesso ao curso?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-4"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      <p>
+                        O acesso ao curso é vitalício. Isso significa que é
+                        possível assistir quando quiser.
+                      </p>
+                      <p>
+                        Você também terá acesso às atualizações de graça, sem
+                        nenhuma cobrança extra.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-5"
+                    >
+                      O aluno terá acesso às atualizações do curso de graça?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-5"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Sim! Qualquer atualização no curso será gratuita.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-6"
+                    >
+                      Quem nunca programou, pode fazer o curso?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-6"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Sim! O curso FullStack Class tem uma trilha preparada para
+                      quem nunca programou. Toda a base necessária será passada
+                      para o aluno, partindo do zero.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-7"
+                    >
+                      É preciso investir em mais alguma coisa após a compra?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-7"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Não. Todas as ferramentas usadas no curso são gratuitas.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#faq-content-8"
+                    >
+                      É necessário ter algum conhecimento prévio sobre
+                      programação?
+                    </button>
+                  </h2>
+                  <div
+                    id="faq-content-8"
+                    class="accordion-collapse collapse"
+                    data-bs-parent="#faqlist1"
+                  >
+                    <div class="accordion-body">
+                      Não. O aluno consegue assistir as aulas mesmo sem ter
+                      nenhum conhecimento sobre programação. Tudo o que é
+                      necessário saber para programar será ensinado.
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="footer-top">
+        <div class="container">
+          <div class="row gy-4 justify-content-center text-center">
+            <div class="col-lg-3 col-mb-12 footer-info">
+              <a href="#sobre">
+                <img src="./imagens/logo-curso.png" class="logo-footer" />
+              </a>
+              <p>
+                Torne-se um Programador Profissional desejados pelas maiores
+                empresas do Brasil e conquiste a sua liberdade finaceira!
+              </p>
+              <div class="social-links mt-3">
+                <a
+                  href="https://www.instagram.com/avancedev/"
+                  target="_blank"
+                  class="instagram"
+                >
+                  <i class="bi bi-instagram"></i>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC-ceEypHA9IkUTeolhvACw"
+                  target="_blank"
+                  class="youtube"
+                >
+                  <i class="bi bi-youtube"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="copyright">
+          &copy; <span id="current-year"></span> -
+          <strong><span>Avance Dev</span></strong>
+          . Todos os direitos reservados
+        </div>
+      </div>
+    </footer>
+
+    <button id="mytop" type="button" onclick="backTop()" class="btn btn-info">
+      <a href="#" class="back-to-top">
+        <i class="bi bi-arrow-up-short"></i>
+      </a>
+    </button>
+
+    <script src="./javascript/script.js"></script>
+  </body>
+</html>
